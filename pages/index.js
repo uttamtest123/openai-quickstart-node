@@ -9,7 +9,7 @@ export default function Home() {
   async function onSubmit(event) {
     event.preventDefault();
     try {
-      const response = await fetch("https://us-central1-psyched-throne-390523.cloudfunctions.net/function-1", {
+      const response = await fetch("https://function-1-3ip5bkvweq-uc.a.run.app", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
